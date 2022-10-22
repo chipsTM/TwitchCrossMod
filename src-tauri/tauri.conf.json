@@ -17,7 +17,7 @@
         "createDir": true,
         "readFile": true,
         "writeFile": true,
-        "scope": ["$APP", "$APP/*"]
+        "scope": ["$APP", "$APP/*", "$RESOURCE/twitch/index.html"]
       },
       "path": {
         "all": true
@@ -54,7 +54,7 @@
         "providerShortName": null,
         "signingIdentity": null
       },
-      "resources": [],
+      "resources": ["twitch/index.html"],
       "shortDescription": "",
       "targets": "all",
       "windows": {

@@ -90,7 +90,7 @@
         <input class="input is-dark" class:is-danger={isDanger} type="text" placeholder="Add Channel" bind:value={newChannel} on:keydown={addChannel} on:input={checkChannel} />
         <ul class="container">
             {#each channelsList as channel, i (channel)}
-                <!-- svelte-ignore a11y-missing-attribute -->
+                <!-- svelte-ignore a11y-click-events-have-key-events a11y-missing-attribute -->
                 <li class="m-5">{channel}<span class="is-pulled-right"><a on:click={() => removeChannel(i)}>X</a></span></li>
             {/each}
         </ul>

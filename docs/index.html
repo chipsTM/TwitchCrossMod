@@ -6,7 +6,7 @@
     </body>
     <script type="text/javascript">
         function doRedirect() {
-            document.location = "https://id.twitch.tv/oauth2/authorize?client_id=fjeq1q11z4cggh3zmzk6q5giu68qpe&redirect_uri=http://localhost:7777/twitch&response_type=token&scope=moderator:manage:banned_users"
+            document.location = "https://id.twitch.tv/oauth2/authorize?client_id=fjeq1q11z4cggh3zmzk6q5giu68qpe&redirect_uri=https://chipstm.github.com/twitchcrossmod&response_type=token&scope=moderator:manage:banned_users"
         }
         const oauthHash = location.hash.substr(1);
         const oauthToken = oauthHash.substr(oauthHash.indexOf('access_token=')).split('&')[0].split('=')[1];

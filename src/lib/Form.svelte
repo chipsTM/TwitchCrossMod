@@ -236,7 +236,7 @@
         modalHidden = !modalHidden
     }
     const openGenerator = async () => {
-        await open("https://id.twitch.tv/oauth2/authorize?client_id=" + client_id + "&redirect_uri=https://chipstm.github.com/twitchcrossmod&response_type=token&scope=moderator:manage:banned_users")
+        await open("https://id.twitch.tv/oauth2/authorize?client_id=" + client_id + "&redirect_uri=https://chipstm.github.io/twitchcrossmod&response_type=token&scope=moderator:manage:banned_users")
     }
 </script>
 <div id="form" class="column p-5">
